@@ -1,0 +1,322 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+h2{
+    margin-bottom: 72px;
+}
+
+/* Header Styles */
+.header-class{
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav-class-title{
+    display: flex;
+    align-items: center;
+}
+.logo-class-first{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-right: 76px;
+}
+.logo-text-first{
+    color: #2e2f42;
+}
+.menu-custom{
+    display: flex;
+    gap: 40px;
+}
+.menu-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+    padding: 24px 0;
+}
+.menu-link:hover{
+    color: #404bbf;
+}
+.menu-link:focus{
+    color: #404bbf;
+}
+.address-info{
+    font-style: normal;
+    display: flex;
+    gap: 40px;
+}
+.address-info ul{
+    list-style: none;
+}
+.address-info ul li{
+    margin-right: 20px;
+}
+.contact-class-custom{
+    display: flex;
+    gap: 40px;
+}
+.contact-link{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+    margin-right: 40px;
+}
+.contact-link:hover,
+.contact-link:focus{
+    color: #404bbf;
+}
+.contact-link:last-child{
+    margin-right: 0;
+}
+
+/* Section One Styles */
+.section-one-class{
+    background-color: #2e2f42;
+    padding: 188px 0;
+}
+.section-tittle-class{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    max-width: 496px;
+}
+.section-button-class{
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+.section-button{
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: var(--button-color, #4d5ae5);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.section-button-class:hover,
+.section-button-class:focus{
+    background-color: #404BBF;
+}
+
+/* Section Two Styles */
+.section-two{
+    background-color: #ffffff;
+    padding: 120px 0;
+}
+.list-atom{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+.list-description{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+}
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.all-custom-list{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    padding: 0;
+}
+.title-list{
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.list-atom{
+    margin-bottom: 8px;
+}
+  
+/* Section Three Styles */
+.section-three-class{
+    background-color: #F4F4FD;
+    padding: 120px 0;
+}
+.section-list{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+.list-item{
+    border-radius: 0 0 4px 4px;
+    margin-right: 24px;
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.container-employer{
+    padding: 32px 0;
+}
+.list-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.list-paragraph{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+}
+.section-title-class{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.list-item{
+    background-color: #FFFFFF;
+}
+.list-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.list-paragraph{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.section-title-class{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+/* Section Four Styles */
+.section-four{
+    padding: 120px 0;
+}
+.container-class-five{
+    width: 80%;
+    margin: 0 auto;
+}
+.section-list-row{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.item-description{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.item-title-class{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.section-list-row li:last-child {
+    margin-right: 0;
+}
+.row-list{
+    margin-bottom: 48px;
+    width: calc((100% - 48px) / 3);
+}
+.app-employer{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+.app-employer .item-title-class{
+    margin-bottom: 8px;
+}
+
+/* Footer Styles */
+.footer{
+    background-color: #2e2f42;
+    text-align: center;
+    color: #f4f4fd;
+    padding: 100px 0;
+}
+.footer-logo{
+    display: inline-block;
+    margin-bottom: 16px;
+    text-decoration: none;
+    color: #333;
+}
+.footer-logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.logo-text-two{
+    color: #f4f4fd;
+}
+.footer-paragraph {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+    max-width: 264px;
+}
